@@ -1,0 +1,158 @@
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 72%, rgba(198,224,255,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*MENU*/
+
+header nav{
+	margin: 27px auto 0;
+	max-width: 590px;
+	background: rgb(255, 221, 236);
+    background: linear-gradient(90deg, rgb(255, 221, 236) 0%, rgb(210, 230, 255) 100%);
+	border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+nav a {
+    padding: 15px;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+    color: rgb(145, 83, 160); 
+	cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+       justify-content: center;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+    }
+
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a:hover{
+    background-color: rgba(255, 0, 149, 0.082);
+    color: rgb(145, 83, 160); 
+    padding: 15px;
+}
+/*FIM MENU*/
+
+/* CONTEUDO - JOGO DA FORCA */
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(71, 40, 79); 
+    padding: 10px 20px;
+    background: rgb(218, 175, 229); ;
+    border-radius: 8px;
+    border: none;
+}
+button:hover{
+    background:rgb(208, 150, 223); 
+}
+
+button:disabled{
+    background: rgb(145, 119, 152); 
+    color: rgb(145, 83, 160); 
+}
+#jogo{
+    text-align: center;
+    
+}
+#titulo{
+    text-align: center;
+    margin: 40px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px; text-transform: uppercase;
+    color: rgb(145, 83, 160); 
+}
+#tabeladiv{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#forca img{
+    width: 55%;
+    height: 55%;
+    float: right;
+}
+#tema{
+    text-align: center;
+    margin: 5px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; text-transform: uppercase;
+    color: #000000;
+}
+#tentativa{
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+#tenta{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+input{
+    margin-left: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+#acerto{
+    text-align: left;
+    margin: 5px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; text-transform: uppercase;
+    color: #000000;
+}
+#palcerta{
+    text-align: left;
+    margin: 5px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; text-transform: uppercase;
+    color: #000000;
+
+}
+#tabAcerto{
+    width: 30%;
+}
+/* FIM CONTEUDO - JOGO DA FORCA */
+
+/* RODAPÉ */
+footer {
+	color: rgb(86, 50, 95);
+	text-align: center;
+    justify-content: center;
+
+}
+footer nav{
+    margin: 27px auto 0;
+	max-width: 700px;
+	background: rgb(255, 221, 236);
+    background: linear-gradient(90deg, rgb(255, 221, 236) 0%, rgb(210, 230, 255) 100%);
+	border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+/* FIM RODAPÉ */

@@ -1,0 +1,189 @@
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 72%, rgba(198,224,255,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*MENU*/
+
+header nav{
+	margin: 27px auto 0;
+	max-width: 590px;
+	background: rgb(255, 221, 236);
+    background: linear-gradient(90deg, rgb(255, 221, 236) 0%, rgb(210, 230, 255) 100%);
+	border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+nav a {
+    padding: 15px;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+    color: rgb(145, 83, 160); 
+	cursor: pointer;
+}
+.logo{
+       justify-content: center;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+    }
+
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a:hover{
+    background-color: rgba(255, 0, 149, 0.082);
+    color: rgb(145, 83, 160); 
+    padding: 15px;
+}
+/*FIM MENU*/
+
+/* BANNER HOME */
+.carousel{
+    max-width: 900px;
+    /* padding: 15px; */
+   display: flex;
+   margin: 20px auto;
+}
+/* FIM BANNER HOME */
+
+/* BOTAO MUSICA */
+
+audio{
+   padding: 10px;
+}
+.musicas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#musicName{
+    text-align: center;
+    color: rgb(145, 83, 160); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button img{
+    width: 30px;
+    border: none;
+}
+button{
+    border: none;
+    background: none;
+}
+/* FIM BOTAO MUSICA */
+
+/* HIPERLINKS DOS JOGOS */
+h1{
+    margin: 27px auto 0;
+    border-radius: 8px;
+	max-width: 590px;
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    color: rgb(145, 83, 160); 
+    background: linear-gradient(90deg, rgb(255, 221, 236) 0%, rgb(210, 230, 255) 100%);
+}
+.centro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto 0;
+    padding: 20px;
+}
+.float{
+    float: left;
+
+}
+p{
+    color: rgb(86, 50, 95); 
+}
+#imglinks{
+    width: 100px;
+}
+.espaco{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* API PERSONAGENS */
+.personaCards{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+#imgPersona{
+  width: 300px;
+  height: 400px;
+}
+
+#conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: backwards;
+    animation-duration: 5s;
+}
+
+ #conteudo img{
+    width: 600px
+} 
+#conteudo-txt{
+    width: 360px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nomePersona{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+/* FIM API PERSONAGENS */
+
+/* RODAPÉ */
+footer {
+    color: rgb(145, 83, 160); 
+	text-align: center;
+    justify-content: center;
+
+}
+footer nav{
+    margin: 27px auto 0;
+	max-width: 700px;
+	background: rgb(255, 221, 236);
+    background: linear-gradient(90deg, rgb(255, 221, 236) 0%, rgb(210, 230, 255) 100%);
+	border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/* FIM RODAPÉ */
+
+
+
+
+
+
+
