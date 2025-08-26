@@ -1,0 +1,34 @@
+{
+    "personagens": [
+        {
+            "nome": "Haerin",
+            "idade": "17 anos",
+            "habilidades": "Super visão",
+            "img": "<img src='imagensGeral/bigHaerin.png' alt=''>"
+        },
+        {
+            "nome": "Danielle",
+            "idade": "17 anos",
+            "habilidades": "Controle de sons",
+            "img": "  <img src='imagensGeral/bigDanielle.png' alt=''>"
+        },
+        {
+            "nome": "Minji",
+            "idade": "18 anos",
+            "habilidades": "Super Força",
+            "img": "<img src='imagensGeral/bigMinji.png' alt=''>"
+        },
+        {
+            "nome": "Hanni",
+            "idade": "19 anos",
+            "habilidades": "Tele Transporte",
+            "img": "<img src='imagensGeral/bigHanni.png' alt=''>"
+        },
+        {
+            "nome": "Hyein",
+            "idade": "15 anos",
+            "habilidades": "Super Velocidade",
+            "img": "<img src='imagensGeral/bigHyein.png' alt=''>"
+        }
+     ]
+}
